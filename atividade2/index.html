@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resenha Crítica - Máquina de Guerra</title>
     <link rel="icon" type="image/x-icon" href="imagemicon.jpg">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- cabeçalho com o título da resenha -->
-    <header>
-        <nav>
-            <!-- link interno (âncora na própria página) para o atividade1.html -->
-            <a href="atividade1.html">Resenha Crítica</a> |
-            <!-- link interno (âncora na própria página) para o atividade1Pagina2.html -->
-            <a href="atividade1Pagina2.html">Elenco</a> 
+    <header class="cabecalho">
+        <nav class="cabecalho__navegacao">
+            <!-- link interno (âncora na própria página) para o index.html -->
+            <a class= "links-internos" href="index.html">Resenha Crítica</a>
+            <!-- link interno (âncora na própria página) para o elenco.html -->
+            <a class="links-internos" href="elenco.html">Elenco</a> 
         </nav>
-        <h1>Resenha Crítica - Máquina de Guerra (2026)</h1>
+        <h1>Resenha Crítica - <strong>Máquina de Guerra (2026)</strong></h1>
     </header>
     
     <!-- imagem da capa do filme -->
@@ -24,10 +25,10 @@
     </figure>
     
     <!-- conteúdo principal do site -->
-    <main>
+    <main class="conteudo-principal">
         <!-- seção da sinopse do filme -->
-        <section>
-            <h2>Sinopse</h2>
+        <section class="sinopse">
+            <h2 id = "titulo">Sinopse</h2>
             <p>"Máquina de Guerra" (2026), da Netflix, é um filme de ação/ficção científica onde um grupo de elite dos Rangers dos EUA, durante um treinamento na Geórgia, enfrenta uma ameaça extraterrestre.</p>
 
             <p>Estrelado por Alan Ritchson, a trama mistura sobrevivência e horror quando um "pesadelo mecânico" de outro mundo transforma o exercício em uma luta real pela vida.</p>
@@ -48,8 +49,8 @@
         </section>
 
         <!-- seção da crítica do filme -->
-        <section>
-            <h2>Crítica</h2>
+        <section class="critica">
+            <h2 id = "titulo">Crítica</h2>
             <p> 
                 O filme "Máquina de Guerra" oferece ação do início ao fim, com cenas impactantes e violentas, mantendo o espectador constantemente envolvido na tensão. A direção aposta em um ritmo acelerado, com sequências intensas e efeitos visuais bem trabalhados, o que contribui para uma experiência dinâmica e imersiva, principalmente para quem busca um entretenimento direto e cheio de adrenalina. Apesar disso, muitas dessas cenas são pouco convincentes, apresentando acontecimentos exagerados e fora da realidade, o que acaba quebrando a imersão em diversos momentos.
             </p>
@@ -68,10 +69,10 @@
         </section>
 
         <!-- seção da avaliação do filme -->
-        <section>
-            <h2>Avaliação do Filme</h2>
+        <section class="avaliacao">
+            <h2 id = "titulo">Avaliação do Filme</h2>
             <!-- uso da lista ordenada -->
-            <ol>
+            <ol class="avaliacao__lista">
                 <li>Ação: 9.5/10</li>
                 <li>Efeitos visuais: 9.2/10</li>
                 <li>Ambientação: 9.0/10</li>
@@ -82,10 +83,10 @@
             <p><strong>Nota final: 7.4/10</strong></p>
 
             <!--  link externo (abrindo em nova aba) para a página do filme na Netflix -->
-            <a href="https://www.netflix.com/br/title/81768525" target="_blank">Página do filme na Netflix.</a>
+            <a class="links-externos" href="https://www.netflix.com/br/title/81768525" target="_blank">Página do filme na Netflix.</a>
             <br><br>
             <!--  link externo (abrindo em nova aba) para o trailer no Youtube -->
-            <a href="https://www.youtube.com/watch?v=mBenb7O8Hnc" target="_blank">Trailer do filme no Youtube.</a>
+            <a class="links-externos" href="https://www.youtube.com/watch?v=mBenb7O8Hnc" target="_blank">Trailer do filme no Youtube.</a>
             <br><br>
         </section>
     </main>
